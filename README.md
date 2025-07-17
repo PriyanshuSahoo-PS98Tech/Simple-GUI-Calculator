@@ -1,30 +1,30 @@
-🧮 GUI Calculator
+## 🧮 GUI Calculator
 A simple yet elegant calculator application built with Python's tkinter library, featuring a clean graphical user interface for basic arithmetic operations.
 
-📋 Table of Contents
-Features
+## 📋 Table of Contents
+- **Features
 
-Demo
+- **Demo
 
-Installation
+- **Installation
 
-Usage
+- **Usage
 
-File Structure
+- **File Structure
 
-Requirements
+- **Requirements
 
-How to Run
+- **How to Run
 
-Future Enhancements
+- **Future Enhancements
 
-Contributing
+- **Contributing
 
-License
+- **License
 
-Contact
+- **Contact
 
-✨ Features
+## ✨ Features
 Clean GUI Interface: Intuitive button layout with professional styling
 
 Basic Arithmetic Operations: Addition, subtraction, multiplication, and division
@@ -45,7 +45,7 @@ White operation buttons with black text
 
 Orange clear button for easy identification
 
-🎯 Demo
+## 🎯 Demo
 For demo please refer output.png file.
 
 🔧 Installation
@@ -60,7 +60,7 @@ Python 3.x is required
 
 tkinter comes pre-installed with Python
 
-📖 Usage
+## 📖 Usage
 The calculator supports the following operations:
 
 Button	Function
@@ -83,20 +83,21 @@ Click "=" to get the result
 
 Click "C" to clear and start fresh
 
-📁 File Structure
+## 📁 File Structure
 text
 GUI-Calculator/
 │
 ├── calculator.py          # Main calculator application
 ├── LICENSE
+├── output.png
 └── README.md             # Project documentation
 
-🛠️ Requirements
+## 🛠️ Requirements
 Python 3.x
 
 tkinter (usually comes pre-installed with Python)
 
-🚀 How to Run
+## 🚀 How to Run
 Navigate to the project directory:
 
 bash
@@ -107,7 +108,7 @@ bash
 python calculator.py
 The calculator window will open, and you can start performing calculations!
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
  Advanced Operations: Add support for square root, percentage, and power functions
 
  Memory Functions: Implement memory store, recall, and clear operations
@@ -122,7 +123,7 @@ The calculator window will open, and you can start performing calculations!
 
  Scientific Mode: Extend to scientific calculator with trigonometric functions
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Here's how you can help:
 
 Fork the repository
@@ -141,10 +142,10 @@ bash
 git push origin feature/AmazingFeature
 Open a Pull Request
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-📞 Contact
+## 📞 Contact
 Priyanshu Sahoo
 
 GitHub: @PriyanshuSahoo-PS98Tech
