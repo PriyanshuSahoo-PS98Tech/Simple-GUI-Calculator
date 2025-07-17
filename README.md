@@ -53,7 +53,9 @@ Clone the repository:
 
 bash
 git clone https://github.com/PriyanshuSahoo-PS98Tech/Simple-GUI-Calculator.git
+
 cd GUI-Calculator
+
 Ensure Python is installed:
 
 Python 3.x is required
@@ -64,13 +66,21 @@ tkinter comes pre-installed with Python
 The calculator supports the following operations:
 
 Button	Function
+
 0-9	Number input
+
 +	Addition
+
 -	Subtraction
+
 x	Multiplication
+
 /	Division
+
 =	Calculate result
+
 C	Clear display
+
 Basic Operation Flow:
 
 Click number buttons to input values
@@ -85,11 +95,16 @@ Click "C" to clear and start fresh
 
 ## 📁 File Structure
 text
+
 GUI-Calculator/
 │
+
 ├── calculator.py          # Main calculator application
+
 ├── LICENSE
+
 ├── output.png
+
 └── README.md             # Project documentation
 
 ## 🛠️ Requirements
@@ -101,11 +116,15 @@ tkinter (usually comes pre-installed with Python)
 Navigate to the project directory:
 
 bash
+
 cd Simple-GUI-Calculator
+
 Run the application:
 
 bash
+
 python calculator.py
+
 The calculator window will open, and you can start performing calculations!
 
 ## 🔮 Future Enhancements
@@ -131,15 +150,21 @@ Fork the repository
 Create a feature branch:
 
 bash
+
 git checkout -b feature/AmazingFeature
+
 Commit your changes:
 
 bash
+
 git commit -m 'Add some AmazingFeature'
+
 Push to the branch:
 
 bash
+
 git push origin feature/AmazingFeature
+
 Open a Pull Request
 
 ## 📄 License
