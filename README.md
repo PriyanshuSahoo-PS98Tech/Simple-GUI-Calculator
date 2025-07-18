@@ -1,181 +1,199 @@
-## 🧮 GUI Calculator
-A simple yet elegant calculator application built with Python's tkinter library, featuring a clean graphical user interface for basic arithmetic operations.
+# 🧮 GUI Calculator
+
+A simple yet user-friendly calculator application built with Python's tkinter library, featuring an elegant graphical user interface for seamless arithmetic operations.
 
 ## 📋 Table of Contents
-- **Features
 
-- **Demo
-
-- **Installation
-
-- **Usage
-
-- **File Structure
-
-- **Requirements
-
-- **How to Run
-
-- **Future Enhancements
-
-- **Contributing
-
-- **License
-
-- **Contact
+- [Features](#-features)
+- [Demo](#-demo)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [File Structure](#-file-structure)
+- [Requirements](#-requirements)
+- [Quick Start](#-quick-start)
+- [Future Enhancements](#-future-enhancements)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
 ## ✨ Features
-Clean GUI Interface: Intuitive button layout with professional styling
 
-Basic Arithmetic Operations: Addition, subtraction, multiplication, and division
+### Core Functionality
+- **🎨 Clean GUI Interface**: Intuitive button layout with professional styling
+- **➕ Basic Arithmetic Operations**: Addition, subtraction, multiplication, and division
+- **📱 Real-time Display**: Live input and result display with immediate feedback
+- **🔄 Clear Function**: Reset calculation with a single click
+- **📐 Responsive Design**: Well-organized grid layout optimized for usability
 
-Real-time Display: Live input and result display
-
-Clear Function: Reset calculation with a single click
-
-Responsive Design: Well-organized grid layout for buttons
-
-- Custom Styling:
-
-Powder blue display background
-
-Black number buttons with white text
-
-White operation buttons with black text
-
-Orange clear button for easy identification
+### Visual Design
+- **🎨 Custom Styling**:
+  - Powder blue display background for enhanced readability
+  - Black number buttons with white text for contrast
+  - White operation buttons with black text for clarity
+  - Orange clear button for quick identification
+  - Professional color scheme throughout
 
 ## 🎯 Demo
-For demo please refer [output.png](https://github.com/PriyanshuSahoo-PS98Tech/Simple-GUI-Calculator/blob/main/output.png) file.
 
-🔧 Installation
-- Clone the repository:
+*The calculator interface showcasing the clean design and intuitive layout.*For demo please refer [OUTPUT](output.png) file.
 
-bash
+## 🔧 Installation
+
+### Prerequisites
+- Python 3.6 or higher
+- tkinter (included with Python standard library)
+
+### Clone Repository
+```bash
 git clone https://github.com/PriyanshuSahoo-PS98Tech/Simple-GUI-Calculator.git
+cd Simple-GUI-Calculator
+```
 
-cd GUI-Calculator
-
-- Ensure Python is installed:
-
-Python 3.x is required
-
-tkinter comes pre-installed with Python
+### Verify Installation
+```bash
+python --version
+python -c "import tkinter; print('tkinter is available')"
+```
 
 ## 📖 Usage
-The calculator supports the following operations:
 
-Button	Function
+### Button Functions
 
-- Number input ('0-9')
+| Button | Function | Description |
+|--------|----------|-------------|
+| `0-9` | Number Input | Enter numerical values |
+| `+` | Addition | Add two numbers |
+| `-` | Subtraction | Subtract second number from first |
+| `x` | Multiplication | Multiply two numbers |
+| `/` | Division | Divide first number by second |
+| `=` | Calculate | Execute the operation and display result |
+| `C` | Clear | Reset the calculator display |
 
-- Addition ('+')
+### Operation Workflow
 
-- Subtraction ('-')
+1. **Input First Number**: Click number buttons to enter the first operand
+2. **Select Operation**: Click desired operation button (+, -, x, /)
+3. **Input Second Number**: Enter the second operand
+4. **Calculate Result**: Click "=" to execute the operation
+5. **Clear Display**: Click "C" to reset for new calculation
 
-- Multiplication ('x')
-
-- Division ('/')
-
-- Calculate result ('=')
-
-- Clear display ('C')
-
-- *Basic Operation Flow:
-
-Click number buttons to input values
-
-Click operation buttons (+, -, x, /) to select operation
-
-Input the second number
-
-Click "=" to get the result
-
-Click "C" to clear and start fresh
+### Example Usage
+```
+Input: 15 + 25 = 40
+Input: 100 / 4 = 25
+Input: 7 x 8 = 56
+```
 
 ## 📁 File Structure
-text
 
-GUI-Calculator/
-
-├── calculator.py          # Main calculator application
-
-├── LICENSE
-
-├── output.png
-
-└── README.md             # Project documentation
+```
+Simple-GUI-Calculator/
+│
+├── calculator.py          # Main application file
+├── output.png            # Demo screenshot
+├── LICENSE              # MIT License file
+└── README.md           # Project documentation
+```
 
 ## 🛠️ Requirements
-Python 3.x
 
-tkinter (usually comes pre-installed with Python)
+### System Requirements
+- **Operating System**: Windows, macOS, or Linux
+- **Python Version**: 3.6+
+- **Memory**: Minimum 50MB RAM
+- **Storage**: 10MB free space
 
-## 🚀 How to Run
-Navigate to the project directory:
+### Dependencies
+```txt
+tkinter (built-in with Python)
+```
 
-bash
+## 🚀 Quick Start
 
+### Method 1: Direct Execution
+```bash
+# Navigate to project directory
 cd Simple-GUI-Calculator
 
-- Run the application:
-
-bash
-
+# Run the application
 python calculator.py
+```
 
-The calculator window will open, and you can start performing calculations!
+### Method 2: Python Module
+```bash
+# Run as module
+python -m calculator
+```
+
+The calculator GUI will launch automatically and be ready for use.
 
 ## 🔮 Future Enhancements
-- Advanced Operations: Add support for square root, percentage, and power functions
 
-- Memory Functions: Implement memory store, recall, and clear operations
+### Planned Features
+- [ ] **Advanced Operations**: Square root, percentage, power functions
+- [ ] **Memory Functions**: Store, recall, and clear memory operations
+- [ ] **Calculation History**: Display and manage operation history
+- [ ] **Keyboard Support**: Full keyboard input compatibility
+- [ ] **Error Handling**: Enhanced validation and error messages
+- [ ] **Themes**: Multiple color themes and customization options
+- [ ] **Scientific Mode**: Trigonometric and logarithmic functions
+- [ ] **Export/Import**: Save and load calculation sessions
 
-- History Feature: Display calculation history
-
-- Keyboard Support: Enable keyboard input for numbers and operations
-
-- Error Handling: Improve error handling for invalid operations
-
-- Themes: Add multiple color themes and customization options
-
-- Scientific Mode: Extend to scientific calculator with trigonometric functions
+### Technical Improvements
+- [ ] Unit testing implementation
+- [ ] Code documentation with docstrings
+- [ ] Configuration file support
+- [ ] Plugin architecture for extensions
 
 ## 🤝 Contributing
-Contributions are welcome! Here's how you can help:
 
-Fork the repository
+We welcome contributions from the community! Here's how you can help:
 
-- Create a feature branch:
+### Development Setup
+```bash
+# Fork the repository
+git fork https://github.com/PriyanshuSahoo-PS98Tech/Simple-GUI-Calculator.git
 
-bash
+# Clone your fork
+git clone https://github.com/YOUR-USERNAME/Simple-GUI-Calculator.git
 
-git checkout -b feature/AmazingFeature
+# Create a feature branch
+git checkout -b feature/amazing-feature
 
-- Commit your changes:
+# Make your changes and commit
+git commit -m "Add amazing feature"
 
-bash
+# Push to your fork
+git push origin feature/amazing-feature
 
-git commit -m 'Add some AmazingFeature'
+# Open a Pull Request
+```
 
-- Push to the branch:
-
-bash
-
-git push origin feature/AmazingFeature
-
-Open a Pull Request
+### Contribution Guidelines
+- Follow PEP 8 style guide
+- Add comments for complex logic
+- Include tests for new features
+- Update documentation as needed
+- Ensure backward compatibility
 
 ## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/PriyanshuSahoo-PS98Tech/Simple-GUI-Calculator/blob/main/LICENSE) file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
-Priyanshu Sahoo
 
-GitHub: @PriyanshuSahoo-PS98Tech
+**Priyanshu Sahoo**
+- 🐙 GitHub: [@PriyanshuSahoo-PS98Tech](https://github.com/PriyanshuSahoo-PS98Tech)
+- 🔗 Project Link: [Simple-GUI-Calculator](https://github.com/PriyanshuSahoo-PS98Tech/Simple-GUI-Calculator)
 
-Project Link: https://github.com/PriyanshuSahoo-PS98Tech/Simple-GUI-Calculator
+### 🌟 Show Your Support
 
-⭐ Star this repository if you found it helpful!
+If you found this project helpful, please consider:
+- ⭐ Starring the repository
+- 🐛 Reporting issues
+- 🔀 Contributing improvements
+- 📢 Sharing with others
 
-Built with ❤️ using Python and tkinter
+<div align="center">
+Built with ❤️ using Python and Tkinter.
+</div>
