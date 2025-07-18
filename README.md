@@ -147,7 +147,7 @@ Contributions are welcome! Here's how you can help:
 
 Fork the repository
 
-Create a feature branch:
+- Create a feature branch:
 
 bash
 
