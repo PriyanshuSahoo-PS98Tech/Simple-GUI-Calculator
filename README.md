@@ -35,7 +35,7 @@ Clear Function: Reset calculation with a single click
 
 Responsive Design: Well-organized grid layout for buttons
 
-Custom Styling:
+- Custom Styling:
 
 Powder blue display background
 
@@ -49,14 +49,14 @@ Orange clear button for easy identification
 For demo please refer [output.png](https://github.com/PriyanshuSahoo-PS98Tech/Simple-GUI-Calculator/blob/main/output.png) file.
 
 🔧 Installation
-Clone the repository:
+- Clone the repository:
 
 bash
 git clone https://github.com/PriyanshuSahoo-PS98Tech/Simple-GUI-Calculator.git
 
 cd GUI-Calculator
 
-Ensure Python is installed:
+- Ensure Python is installed:
 
 Python 3.x is required
 
@@ -67,21 +67,21 @@ The calculator supports the following operations:
 
 Button	Function
 
-0-9	Number input
+- 0-9	Number input
 
-+	Addition
+- +	Addition
 
--	Subtraction
+- -	Subtraction
 
-x	Multiplication
+- x	Multiplication
 
-/	Division
+- /	Division
 
-=	Calculate result
+- =	Calculate result
 
-C	Clear display
+- C	Clear display
 
-Basic Operation Flow:
+- *Basic Operation Flow:
 
 Click number buttons to input values
 
@@ -119,7 +119,7 @@ bash
 
 cd Simple-GUI-Calculator
 
-Run the application:
+- Run the application:
 
 bash
 
@@ -128,19 +128,19 @@ python calculator.py
 The calculator window will open, and you can start performing calculations!
 
 ## 🔮 Future Enhancements
- Advanced Operations: Add support for square root, percentage, and power functions
+- Advanced Operations: Add support for square root, percentage, and power functions
 
- Memory Functions: Implement memory store, recall, and clear operations
+- Memory Functions: Implement memory store, recall, and clear operations
 
- History Feature: Display calculation history
+- History Feature: Display calculation history
 
- Keyboard Support: Enable keyboard input for numbers and operations
+- Keyboard Support: Enable keyboard input for numbers and operations
 
- Error Handling: Improve error handling for invalid operations
+- Error Handling: Improve error handling for invalid operations
 
- Themes: Add multiple color themes and customization options
+- Themes: Add multiple color themes and customization options
 
- Scientific Mode: Extend to scientific calculator with trigonometric functions
+- Scientific Mode: Extend to scientific calculator with trigonometric functions
 
 ## 🤝 Contributing
 Contributions are welcome! Here's how you can help:
@@ -153,13 +153,13 @@ bash
 
 git checkout -b feature/AmazingFeature
 
-Commit your changes:
+- Commit your changes:
 
 bash
 
 git commit -m 'Add some AmazingFeature'
 
-Push to the branch:
+- Push to the branch:
 
 bash
 
