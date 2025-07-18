@@ -46,7 +46,7 @@ White operation buttons with black text
 Orange clear button for easy identification
 
 ## 🎯 Demo
-For demo please refer output.png file.
+For demo please refer [output.png](https://github.com/PriyanshuSahoo-PS98Tech/Simple-GUI-Calculator/blob/main/output.png) file.
 
 🔧 Installation
 Clone the repository:
