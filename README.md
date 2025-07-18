@@ -35,7 +35,7 @@ A simple yet user-friendly calculator application built with Python's tkinter li
 
 ## 🎯 Demo
 
-*The calculator interface showcasing the clean design and intuitive layout.*For demo please refer [OUTPUT](output.png) file.
+*The calculator interface showcasing the clean design and intuitive layout.* For demo please refer [OUTPUT](output.png) file.
 
 ## 🔧 Installation
 
