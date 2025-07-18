@@ -67,19 +67,19 @@ The calculator supports the following operations:
 
 Button	Function
 
-- 0-9	Number input
+- Number input ('0-9')
 
-- +	Addition
+- Addition ('+')
 
-- -	Subtraction
+- Subtraction ('-')
 
-- x	Multiplication
+- Multiplication ('x')
 
-- /	Division
+- Division ('/')
 
-- =	Calculate result
+- Calculate result ('=')
 
-- C	Clear display
+- Clear display ('C')
 
 - *Basic Operation Flow:
 
