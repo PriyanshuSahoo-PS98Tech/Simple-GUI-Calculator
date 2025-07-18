@@ -195,5 +195,5 @@ If you found this project helpful, please consider:
 - 📢 Sharing with others
 
 <div align="center">
-Built with ❤️ using Python and Tkinter.
+Built with ❤️ using Python and Tkinter. **#PS98Tech**
 </div>
