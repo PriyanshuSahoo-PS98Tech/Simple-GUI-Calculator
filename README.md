@@ -97,6 +97,7 @@ Click "C" to clear and start fresh
 text
 
 GUI-Calculator/
+
 │
 
 ├── calculator.py          # Main calculator application
