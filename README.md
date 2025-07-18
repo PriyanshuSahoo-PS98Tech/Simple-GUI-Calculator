@@ -98,8 +98,6 @@ text
 
 GUI-Calculator/
 
-│
-
 ├── calculator.py          # Main calculator application
 
 ├── LICENSE
