@@ -9,7 +9,7 @@ A simple yet user-friendly calculator application built with Python's tkinter li
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [File Structure](#-file-structure)
-- [Requirements](#-requirements)
+- [Requirements](#️-requirements)
 - [Quick Start](#-quick-start)
 - [Future Enhancements](#-future-enhancements)
 - [Contributing](#-contributing)
